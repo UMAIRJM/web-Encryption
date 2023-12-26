@@ -1,1 +1,1 @@
-<? php include("mianFile.html")?>
+<? php include("index.html")?>
