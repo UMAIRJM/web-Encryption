@@ -26,7 +26,7 @@ function encryptFunction(){
             }
         }
         let convertedString = encryptedArray.join('')
-        $("#outputLabel").text("Your Encrypted key: " + convertedString)
+        $("#outputLabel").text("Your Encrypted Message: " + convertedString)
 
     })
 
@@ -47,7 +47,7 @@ function descryptFucntion(){
             }
         }
         let convertedString = encryptedArray.join('')
-        $("#outputLabel").text("Your Encrypted key: " + convertedString)
+        $("#outputLabel").text("Your Decrypted Message: " + convertedString)
 
     })
 }
